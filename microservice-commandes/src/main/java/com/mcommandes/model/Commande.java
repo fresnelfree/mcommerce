@@ -12,6 +12,7 @@ public class Commande {
     @Id
     @GeneratedValue
     private int id;
+
     private Integer productId;
 
     private Date dateCommande;
